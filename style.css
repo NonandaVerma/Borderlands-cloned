@@ -1,0 +1,502 @@
+*{ margin:0;
+  padding:0;
+  font-family: "Anton SC", sans-serif;
+}
+
+.anton-sc-regular {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+nav{ width:100%;
+     height:50px;
+     background-color: #000;
+     position:fixed;
+     top:0;
+    }  
+
+.navIn{ width:1350px;
+         height:50px;
+        margin:auto;
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    
+.navIn .logo{ width:200px;
+              height:30px;
+            }  
+            
+.navIn .menuBox{ width:180px;
+                 height:40px;
+                }   
+                
+.menuBox ul{ display:flex;
+             font-size:25px;
+             color:#FCEE00;
+             list-style: none;
+            }   
+
+.menuBox ul li{ padding-left:20px;
+                 box-sizing: border-box;}       
+                 
+.menuBox ul li:hover{ cursor: pointer;
+                      color:#fff;}    
+
+.banner{ width:100%;
+         height:800px;
+         background-image:url("images/banner1.jpg");
+         background-size:cover;
+         background-position: center;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin-top:50px;
+
+        }
+
+.banner h1{ font-size:55px;
+            color:#fff;
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-shadow: 0 0 2px #fff,  0 0 5px #379afd, 0 0 13px #b1d6fc;
+            padding-top:500px;
+            box-sizing: border-box;
+        }   
+
+.banner .logoStrip{ width:350px;
+                    height:70px;
+                    display:flex;
+                    justify-content: space-evenly;
+                  }   
+
+.logoStrip img{ transition:0.7s;
+                opacity:2;}                  
+
+.logoStrip img:hover{ transition:0.7s;
+                      cursor:pointer;
+                      transform:scale(1.1);
+                      opacity:0.7;}                  
+                  
+.banner .teaser{ width:100%;
+                 height:100px;
+                 background-color:#000;
+                 padding-top:20px;
+                 box-sizing: border-box;
+                 color:#fff;
+                 text-align: center;
+                 font-size:50px;
+                 margin-top:40px;
+                }     
+ 
+.youtubeBanner{ width:100%;
+                height:700px;
+                background-image: url("images/space_bg_desktop.B_0DNkqi.jpg");
+                background-size:cover;
+                background-position: center;
+              }        
+              
+.youtubeBox{ width:1200px;
+             height:600px;
+             background-color: pink;
+             margin:auto;
+            }  
+            
+.descr{ width:100%;
+        height:620px;
+        background-color: #000;}            
+            
+.para{ width:1100px;
+       height:550px;
+       margin:auto;
+       text-align: center;
+       color:#fff;
+    }     
+    
+.upPara{ width:700px;
+         height:100px;
+         margin:auto;
+        } 
+
+.upPara p{ font-family: Verdana, Geneva, Tahoma, sans-serif;
+           font-size: 17px;}    
+           
+.downPara{ width:100%;
+           height:350px; }    
+        
+.downPara h1{ font-size:50px;
+              font-family: "Bebas Neue", sans-serif;
+              padding:130px 0px 20px 0px;
+            box-sizing: border-box;} 
+              
+.downPara i{ font-family:Verdana, Geneva, Tahoma, sans-serif;}              
+              
+.downPara p{ font-size:17px;
+             font-family:Verdana, Geneva, Tahoma, sans-serif;
+             padding-bottom:20px;
+             box-sizing: border-box;
+            text-align: left;
+        }   
+        
+.downPara ol li{ text-align: left;
+                 font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }        
+
+.signUp{ width:250px;
+         height:70px;
+         background-color: #000;
+         margin:auto;
+         font-size:30px;
+         color:#FCEE00;
+         border: solid 3.5px #FCEE00;
+         padding:5px;
+         box-sizing: border-box;
+         margin-top:30px;}  
+         
+.signUp:hover{ border:solid 3.5px #fff;
+               cursor: pointer;
+              color:#fff;}   
+              
+.charOut{ width:100%;
+          height:850px;
+          background-color: #000;}    
+          
+.charBox{ width:1200px;
+          height:750px;
+          margin:auto;
+        }   
+        
+.charBox img{ width:100%;
+              height:650px; }     
+              
+.charBox p i{ color:#fff;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              font-size:11px;
+              font-weight:500; 
+             }   
+              
+.charBox p{ line-height: 13px;
+    padding-top:30px;
+    box-sizing: border-box;}          
+
+.bar{ width:100%;
+      height:30px;
+      margin-top:40px;}
+
+.feature{ width:100%;
+          height:920px;
+          background-color: #000;}      
+
+.feature h2{ color:#FCEE00;
+             text-align: center;
+             font-size:50px;
+             padding-top:50px;
+             box-sizing: border-box;
+             font-family: "Bebas Neue", sans-serif;
+            }   
+            
+.featureIn{ width:1250px;
+            height:630px;
+            margin:auto;
+            margin-top:30px;
+            display:flex;
+            justify-content: space-evenly;
+          }    
+          
+.featureBox{ width:30%;
+             height:100%;
+             margin-left:20px;
+            }    
+            
+.featureBox img{ width:100%;
+                  height:350px;}   
+                  
+.featureBox h3{ text-align: center;
+                color:#fff;
+                font-family: "Bebas Neue", sans-serif;
+                font-size:28px;
+                padding:10px;
+                box-sizing: border-box;
+             }   
+             
+.featureBox p{ color:#fff;
+               font-size:17px;
+               font-family: Verdana, Geneva, Tahoma, sans-serif;
+               text-align: center;
+               padding:10px;
+               box-sizing: border-box;
+            }             
+
+.feature h4{ text-align: center;
+             font-size:20px;
+             color:#FCEE00;
+             padding-top:40px;
+             box-sizing: border-box;}           
+             
+.feature h4:hover{ cursor:pointer;
+                   color:#fff;}       
+                   
+.pandora{ width:100%;
+          height:800px;
+          background-color: #000;
+          background-image: url("images/pandora.jpg");
+          display: flex;
+          justify-content: center;
+        }     
+          
+.pandoraIn{ width:1300px;
+            height:600px;
+            margin:auto;
+            
+            display: flex;
+            justify-content: center;
+            background-color: pink;
+        }        
+
+.pandoraBox{ width:50%; 
+             height:100%;
+             background-image: url("images/pandora2.jpg");
+             background-position: -150px -10px;
+             background-repeat: no-repeat;
+            }      
+            
+.pandoraBox h2{ text-align: center;
+                color:#FCEE00;
+                font-family: "Bebas Neue", sans-serif;
+                font-size:60px;
+                padding:50px 0px 20px 0px;
+                box-sizing: border-box;
+                }   
+                
+.pandoraBox p{ color:#fff;
+               font-size:17px;
+               font-family: Verdana, Geneva, Tahoma, sans-serif;
+               text-align: justify;
+               padding:10px 25px 10px 25px;
+            }      
+            
+.pandoraBox p i{ font-family: Verdana, Geneva, Tahoma, sans-serif;} 
+
+.pandoraBox .watch, .buy{ width:200px;
+                    height:60px;
+                    background-color: #000;
+                    border:solid 3px #FCEE00;
+                    color:#FCEE00;
+                    text-align: center;
+                    font-size:30px;
+                    line-height: 60px;
+                    margin:30px 20px 0px 20px;
+                    box-sizing: border-box;
+                    float:right;}
+
+.buy{ width:150px;}  
+
+.pandoraBox .watch:hover{ border:solid 3px #fff;
+                          color:#fff;
+                          cursor: pointer;}
+
+.pandoraBox .buy:hover{ border:solid 3px #fff;
+                            color:#fff;
+                            cursor: pointer;}
+
+.pandoraCollImg{ width:50%;
+                 height:100%;
+                 background-color: #000;}
+
+.pandoraCollImg img{ width:100%;
+                     height:60%;
+                    margin-top:100px;}   
+                    
+.welcome{ width:100%;
+          height:600px;
+          background-image: url("images/welcome.jpg");
+          background-size: cover;
+        }    
+        
+.welIn{ width:700px;
+        height:450px;
+        margin:80px 100px 0px 0px;
+
+        float:right;}        
+
+.welcome h1{ font-size: 60px;
+             color:#FCEE00;
+             font-family: "Bebas Neue", sans-serif;
+             }  
+             
+.welcome p{ color:#fff;
+            font-size:18px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding:20px 0px 10px 0px;
+        }     
+        
+.games{ width:100%;
+        height:1400px;
+        background-color: #000;}  
+        
+.gamesIn{ width:1300px;
+          height:1200px;
+          margin:auto;
+          margin-top:70px;
+          display:flex;
+          flex-wrap: wrap;
+         justify-content: space-evenly;
+         
+      }   
+          
+.gamesBox{ width:400px;
+           height:550px;
+           margin:40px 0px 0px 10px;}   
+           
+.gamesBox img{ width:100%;
+               height:400px;
+               }     
+               
+.gamesBox h2{ text-align: center;
+              color:#fff;
+              font-size:35px;
+              font-family: "Bebas Neue", sans-serif;
+              margin-bottom:20px;
+              }     
+              
+.gamesBox .learn{ width:170px;
+                  height:50px;
+                  background-color: #000;
+                  border:solid 4px #FCEE00;
+                  color:#FCEE00;
+                  text-align: center;
+                  line-height: 50px;
+                  font-size: 25px;
+                  margin:auto;
+                 }   
+                 
+.learn:hover{ cursor: pointer;
+               border: solid 4px #fff;
+              color:#fff; }             
+              
+footer{ width:100%;
+        height:700px;
+        background-color: #000;}      
+        
+.footerIn{ width:1300px;
+           height:650px;
+           margin:auto;
+          }    
+          
+.fIcon1{ width:700px;
+         height:150px;
+         margin:auto;
+         display:flex;
+         justify-content: space-evenly;
+         align-items: last baseline;
+         
+        }   
+        
+.fIcon1 img{ width:50px;
+             height:50px;} 
+             
+.fIcon1 img:hover{ cursor: pointer;}     
+
+.fIcon2{ width:300px;
+         height:90px;
+         margin:auto;
+         display:flex;
+         justify-content: space-evenly;
+         align-items: last baseline;
+        }
+
+.fIcon2 img{ width:70px;
+             height:60px;}  
+             
+.fIcon3{ width:200px;
+         height:100px;
+        padding-top:20px;
+        box-sizing: border-box;
+        margin:auto;} 
+        
+.fIcon3 img{ width:200px;
+             height:80px;} 
+             
+.fText1, .fText2, .fText3
+       { width:700px;
+         height:60px;
+         margin:auto;
+         }  
+
+.fText1 ul { display: flex;
+             justify-content: space-evenly;
+              padding-top:20px;
+              box-sizing: border-box;
+              color:#fff;
+              list-style: none;
+              }  
+              
+.fText1 ul li{ font-size:18px;
+               font-family: Verdana, Geneva, Tahoma, sans-serif;}      
+               
+.fText1 ul li:hover{ color:#FCEE00;
+                      cursor: pointer;}    
+         
+.fText2{ width:800px;}   
+
+.fText2 ul { display: flex;
+  justify-content: space-evenly;
+   padding-top:20px;
+   box-sizing: border-box;
+   color:#fff;
+   list-style: none;
+   }  
+   
+.fText2 ul li{ font-size:18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;} 
+
+.fText2 ul li:hover{ color:#FCEE00;
+      cursor: pointer;}   
+
+.fText3{ width:750px;} 
+
+.fText3 ul { display: flex;
+  justify-content: space-evenly;
+   padding-top:20px;
+   box-sizing: border-box;
+   color:#fff;
+   list-style: none;
+   }  
+   
+.fText3 ul li{ font-size:18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;} 
+
+.fText3 ul li:hover{ color:#FCEE00;
+      cursor: pointer;}   
+
+.footerIn p i{ text-align: justify;
+               font-size:15px;
+               font-family: Verdana, Geneva, Tahoma, sans-serif;
+              color:#fff;}    
+
+.footerIn p{ line-height: 15px;
+              padding-top:20px;
+              font-size: 18px;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              color:#fff;
+              box-sizing: border-box;}
+
+yellow{ color: #FCEE00;
+        text-decoration: underline;
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        cursor: pointer;}              
+
+
+    
+        
+        
+
+
+          
+
+
+                              
